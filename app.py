@@ -20,7 +20,7 @@ import pickle
 
 # Load environment variables
 load_dotenv()
-
+HUGGINGFACEHUB_API_TOKEN = st.secrets.get("HUGGINGFACEHUB_API_TOKEN")
 # Page configuration
 st.set_page_config(
     page_title="RAG Document Q&A",
